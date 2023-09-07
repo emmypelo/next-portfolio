@@ -7,7 +7,6 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Emmanuel Ogunleye',
-  description: 'Made with nextJS and Tailwind CSS',
 }
 
 export default function RootLayout({ children }) {

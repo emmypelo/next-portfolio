@@ -82,10 +82,9 @@ const Contact = () => {
               type="text"
               id="name"
               name="user_name"
-              className="focus:ring-indigo-500 focus:border-indigo-500  w-full pl-10 sm:text-sm border-gray-300 rounded-md h-10"
+              className="focus:ring-indigo-500 text-gray-700 focus:border-indigo-500  w-full pl-10 sm:text-sm border-gray-300 rounded-md h-10"
               placeholder="e.g Leo"
               required
-              maxLength="15"
               minLength="5"
             />
           </div>
@@ -101,7 +100,7 @@ const Contact = () => {
               type="email"
               id="email"
               name="user_email"
-              className="  focus:ring-indigo-500 focus:border-indigo-500 flex w-full pl-10 sm:text-sm border-gray-300 rounded-md h-10"
+              className="  focus:ring-indigo-500 text-gray-700 focus:border-indigo-500 flex w-full pl-10 sm:text-sm border-gray-300 rounded-md h-10"
               placeholder="e.g leo2dworld@gmail.com"
             />
           </div>
@@ -117,7 +116,7 @@ const Contact = () => {
               type="text"
               id="subject"
               name="user_subject"
-              className="focus:ring-indigo-500 focus:border-indigo-500 flex w-full pl-10 sm:text-sm border-gray-300 rounded-md h-10"
+              className="focus:ring-indigo-500 focus:border-indigo-500 text-gray-700 flex w-full pl-10 sm:text-sm border-gray-300 rounded-md h-10"
               placeholder="I need a portfolio website"
             />
           </div>
@@ -155,33 +154,32 @@ const Contact = () => {
             link="https://www.google.com/maps?q=Bodija+Housing+Corporation+Estate,Opp.+Methodist+Church,Bodija,Ibadan,Oyo+State"
           />
           <div className="flex gap-3 text-3xl">
-          <ContactIcon
-            icon={<MdOutgoingMail />}
-            // text="addjbleo@gmail.com"
-            link="mailto:addjbleo@gmail.com"
-          />
-          <ContactIcon
-            icon={<MdOutlinePhone />}
-            // text="+2349060848004"
-            link="tel:+2349060848004"
-          />
-          <ContactIcon
-            icon={<MdOutlineFacebook />}
-            // text="Leo Emmy"
-            link="https://facebook.com/emmaenuel.pelumi"
-          />
-          <ContactIcon
-            icon={<FaTwitter />}
-            // text="Leo Emmy"
-            link="https://twitter.com/king_leo4u"
-          />
-          <ContactIcon
-            icon={<BsLinkedin />}
-            // text="Emmanuel Ogunleye"
-            link="https://linkedin.com/in/codingqsleo"
-          />
+            <ContactIcon
+              icon={<MdOutgoingMail />}
+              // text="addjbleo@gmail.com"
+              link="mailto:addjbleo@gmail.com"
+            />
+            <ContactIcon
+              icon={<MdOutlinePhone />}
+              // text="+2349060848004"
+              link="tel:+2349060848004"
+            />
+            <ContactIcon
+              icon={<MdOutlineFacebook />}
+              // text="Leo Emmy"
+              link="https://facebook.com/emmaenuel.pelumi"
+            />
+            <ContactIcon
+              icon={<FaTwitter />}
+              // text="Leo Emmy"
+              link="https://twitter.com/king_leo4u"
+            />
+            <ContactIcon
+              icon={<BsLinkedin />}
+              // text="Emmanuel Ogunleye"
+              link="https://linkedin.com/in/codingqsleo"
+            />
           </div>
-          
         </div>
       </div>
     </div>
